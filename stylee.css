@@ -1,0 +1,233 @@
+*
+{
+	margin: 0;
+	padding:0;
+
+}
+.row
+{
+	max-width:1140px;
+	margin:0-auto;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+
+
+
+}
+
+.hero{ 
+  
+  position:absolute;
+  width: 1140px;
+  top:50%;
+  left:40%;
+  transform: translate(-50%,-50%);
+  
+  
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("better.jpg");
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+	
+}
+nav
+{
+    color: white;
+
+}
+h1
+{
+	color: white;
+	padding-top: 30px;
+
+}
+.navbar-nav {
+	list-style: none;
+	float: right;
+	margin-top: 60px;
+	margin-left: 200px;
+}
+ .navbar-nav nav-link a{
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+	font-size:90%; 
+	font-weight:bold;
+
+}
+.navbar-nav nav-link a:hover
+{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 15px 0;
+
+}
+
+.logo img
+{
+	height:100px;
+	float: left;
+	margin-top:30px;
+	margin-left:40px;
+}
+.btn
+{
+	border:1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+
+
+}
+.button-awesome{
+	margin-top: 40px;
+}
+.btn-half
+{
+	background-color: #e67e22;
+	color: white;
+
+}
+.btn-full:hover
+{
+	background-color: #e67e22;
+	color: white;
+	transition: all 0.5s ease-in;
+
+}
+.copy
+{
+	width: 90%;
+	margin-left: 30%;
+	margin-bottom: 20px;
+
+}
+ h3:after
+{
+
+	width:100px;
+	height: 4px;
+	color: white;
+	display: block;
+	content: '';
+	margin:0 auto;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.container{
+	
+	padding: 15px;
+
+}
+.display-4 h1
+{ 
+	font-size: 40px;
+	color: white;
+	background-color: #e67e22
+
+}
+
+.features i
+{
+	font-size: 40px;
+	color: #e67e22;
+	align-content: center;
+}
+.arrange
+{
+	text-align: center;
+
+}
+.features h4
+{
+	margin-left: 30px;
+    color: #e67e22;
+}
+
+.search {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+.searchTerm {
+  width: 80%;
+  border: 3px solid #e67e22;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 15px 0 0 15px;
+  outline: none;
+  color: #fff;
+}
+
+.searchButton {
+  width: 100px;
+  height:50px;
+  border: 1px solid #e67e22;
+  background: #e67e22;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.restaurant{
+	padding: 10px;
+	margin-left:200px;
+}
+ {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px; margin-bottom: 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #e67e22;
+  color: white;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
